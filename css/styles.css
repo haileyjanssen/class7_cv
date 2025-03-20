@@ -53,11 +53,8 @@ body {
 .photo-hailey {
 	width: 150px; /* Set the width of the image */
             height: 150px; /* Set the height of the image */
-            border-radius: 50%; /* Makes it a circle */
-            object-fit: cover; /* Ensures the image fills the circle */
-            display: block;
-			margin-left: 25px;
-			margin-top: 25px;
+            
+			
 }
 
 h1 {
