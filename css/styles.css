@@ -5,30 +5,30 @@
 
 /* Styles for the body */
 
+
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #D36A7E;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: white;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color:lightpink;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "-";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #b13745;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +48,44 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.photo-hailey {
+	width: 150px; /* Set the width of the image */
+            height: 150px; /* Set the height of the image */
+            border-radius: 50%; /* Makes it a circle */
+            object-fit: cover; /* Ensures the image fills the circle */
+            display: block;
+			margin-left: 25px;
+			margin-top: 25px;
+}
+
+h1 {
+	font-family: "pf-marlet-display", sans-serif; 
+	font-size: 60px;
+	margin-left: 40px;
+	margin-top: 45px;
+	color: white;
+}
+
+.headerfive {
+	font-family: "raleway", sans-serif;
+	fontsize: 18px;
+	margin-left: 42px;
+	color: white;
+}
+
+h2 {
+	font-family: "pf-marlet-display", sans-serif;
+	color: white;
+}
+
+.professionalexperience {
+	font-family: "pf-marlet-display", sans-serif;
+	color: darkred;
+}
+
+.education {
+	font-family: "pf-marlet-display", sans-serif;
+	color: darkred;
 }
